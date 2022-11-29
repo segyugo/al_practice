@@ -17,5 +17,5 @@ repeat_num = repeat * (M//(K+1))
 last_num = Max*(M%(K+1))
 
 total = repeat_num + last_num
-#추가 완료!
+
 print(total)
