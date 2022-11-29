@@ -18,4 +18,4 @@ last_num = Max*(M%(K+1))
 
 total = repeat_num + last_num
 
-print(total)
+print(total + "입니다")
