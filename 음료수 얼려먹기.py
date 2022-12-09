@@ -8,6 +8,8 @@ def dfs(x, y):
     #범위 밖 False처리
     if x <= -1 or x >= n or y <= -1 or y >= m:
         return False
+    if graph[x][y] == 1:
+        return False
     if graph[x][y] == 0:
         graph[x][y] = 1
         dfs(x-1, y)
@@ -15,7 +17,6 @@ def dfs(x, y):
         dfs(x+1, y)
         dfs(x, y+1)
         return True
-    return False
 
 
 count = 0
