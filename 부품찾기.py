@@ -22,6 +22,7 @@ for target in sell:
             break
         if target < store[mid]:
             end = mid -1
+
         if target > store[mid]:
             start = mid +1
 
