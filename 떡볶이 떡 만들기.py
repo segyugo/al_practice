@@ -4,7 +4,6 @@ n, x = map(int, input().split())
 length = list(map(int, input().split()))
 
 start = 0
-end = max(length)
 
 # 반복문
 while start <= end:
