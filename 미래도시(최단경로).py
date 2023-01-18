@@ -17,7 +17,7 @@ for j in range(1, n+1):
 
 x, k = map(int, input().split())
 
-if gragh[1][k] + gragh[k][x] > INF:
+if gragh[1][k] + gragh[k][x] >= INF:
     print(-1)
 else:
     print(gragh[1][k] + gragh[k][x])
